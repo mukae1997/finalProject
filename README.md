@@ -2,46 +2,49 @@
 
 TODO:
 - GameScene
-  - Æ×ÃæËÙ¶È¿ØÖÆ
-  - GLOBALÀàÉèÖÃÎªµ¥ÀýÄ£Ê½
-  - ÇÃ»÷¼ì²â
-  - ÇÃ»÷¼àÌý
-- SelectScene Ä¿Ç°Ê²Ã´¶¼Ã»ÊµÏÖ
-- ResultScene Ä¿Ç°Ê²Ã´¶¼Ã»ÊµÏÖ
+  - è°±é¢é€Ÿåº¦æŽ§åˆ¶
+  - GLOBALç±»è®¾ç½®ä¸ºå•ä¾‹æ¨¡å¼
+  - æ•²å‡»æ£€æµ‹
+  - æ•²å‡»ç›‘å¬
+- SelectScene ç›®å‰ä»€ä¹ˆéƒ½æ²¡å®žçŽ°
+- ResultScene ç›®å‰ä»€ä¹ˆéƒ½æ²¡å®žçŽ°
 
 
-Ö÷Òª×é³É£º
-1.GameScene ÓÎÍæ½çÃæ
-2.SelectScene Ñ¡Ôñ½çÃæ
-3.ResultScene ½á¹û½çÃæ
-4.Ò»¸ö¹ÜÀíÈ«¾Ö°ì·¨µÄÀàGlobal
-5.VisibleRect ÓÃÀ´ÉèÖÃ¸÷ÖÖÎ»ÖÃµÄ£¬Ä¿Ç°ÊÇÔÚÀàÀïÉèÖÃÒ»¸öÊµÀýÊ¹ÓÃ
+ä¸»è¦ç»„æˆï¼š
+1.GameScene æ¸¸çŽ©ç•Œé¢
+2.SelectScene é€‰æ‹©ç•Œé¢
+3.ResultScene ç»“æžœç•Œé¢
+4.ä¸€ä¸ªç®¡ç†å…¨å±€åŠžæ³•çš„ç±»Global
+5.VisibleRect ç”¨æ¥è®¾ç½®å„ç§ä½ç½®çš„ï¼Œç›®å‰æ˜¯åœ¨ç±»é‡Œè®¾ç½®ä¸€ä¸ªå®žä¾‹ä½¿ç”¨
 
 ----------------------------------------------------------------------------
 
-ÓÎÍæÂß¼­£º
-updateº¯ÊýÖÐ°´ÕÕÆ×ÃæÊ±¼äÂëºÍµ±Ç°Ê±¼ä¼ÆÊýÆ÷µÄÊ±
-´´Ôìnote
+æ¸¸çŽ©é€»è¾‘ï¼š
+
+updateå‡½æ•°ä¸­æŒ‰ç…§è°±é¢æ—¶é—´ç å’Œå½“å‰æ—¶é—´è®¡æ•°å™¨çš„æ—¶
+åˆ›é€ note
+
+
 ----------------------------------------------------------------------------
-Æ×ÃæÊ¹ÓÃµÄjsoncppÀ´Ð´ÈëµÄ£¬²»×öÆ×Ãæ¾Í²»ÓÃ×°ÁË¡£
+è°±é¢ä½¿ç”¨çš„jsoncppæ¥å†™å…¥çš„ï¼Œä¸åšè°±é¢å°±ä¸ç”¨è£…äº†ã€‚
 
-¡¾¡¿Æ×Ãæ¼ÇÂ¼¸ñÊ½¡¿
-Æ×Ãæ½á¹¹£º
-{ "array": [   /*ÕâÀïÊÇÒ»¸öÊµ¼ÊÆ×ÃæÐÅÏ¢µÄÊý×é*/] }
+ã€ã€‘è°±é¢è®°å½•æ ¼å¼ã€‘
+è°±é¢ç»“æž„ï¼š
+{ "array": [   /*è¿™é‡Œæ˜¯ä¸€ä¸ªå®žé™…è°±é¢ä¿¡æ¯çš„æ•°ç»„*/] }
 
-Êý×éÀïÃæÃ¿Ò»¸öÔªËØ¶¼ÊÇÕâÑùµÄ£º
+æ•°ç»„é‡Œé¢æ¯ä¸€ä¸ªå…ƒç´ éƒ½æ˜¯è¿™æ ·çš„ï¼š
 {
-   "time" : 1896,  //  Ê±¼ä´Á
-   "tracks" : [    // Ò»¸öÊý×é£¬°üÀ¨Ã¿¸ö¹ìµÀÔÚÕâ¸öÊ±¼ä´Á»áÓÐÊ²Ã´noteÂäÏÂÀ´
+   "time" : 1896,  //  æ—¶é—´æˆ³
+   "tracks" : [    // ä¸€ä¸ªæ•°ç»„ï¼ŒåŒ…æ‹¬æ¯ä¸ªè½¨é“åœ¨è¿™ä¸ªæ—¶é—´æˆ³ä¼šæœ‰ä»€ä¹ˆnoteè½ä¸‹æ¥
       {
-         "length" : 1,   // note³ÖÐøÊ±¼ä£¬Ö÷ÒªÊÇÉè¼Æ¸ø³¤ÌõÓÃµÄ
-         "num" : 0,   // ¹ìµÀºÅÂë
-         "type" : "tap"  // tap¾ÍÊÇµãÒ»ÏÂ
+         "length" : 1,   // noteæŒç»­æ—¶é—´ï¼Œä¸»è¦æ˜¯è®¾è®¡ç»™é•¿æ¡ç”¨çš„
+         "num" : 0,   // è½¨é“å·ç 
+         "type" : "tap"  // tapå°±æ˜¯ç‚¹ä¸€ä¸‹
       },
       {
          "length" : 0,
          "num" : 1,
-         "type" : "none" // none±íÊ¾Õâ¸öÊ±¿ÌÕâ¸ö¹ìµÀ²»»áÓÐnoteµôÂä
+         "type" : "none" // noneè¡¨ç¤ºè¿™ä¸ªæ—¶åˆ»è¿™ä¸ªè½¨é“ä¸ä¼šæœ‰noteæŽ‰è½
       },
       {
          "length" : 1,
@@ -55,23 +58,6 @@ updateº¯ÊýÖÐ°´ÕÕÆ×ÃæÊ±¼äÂëºÍµ±Ç°Ê±¼ä¼ÆÊýÆ÷µÄÊ±
       }
    ]
 }
-Ê±¼äµ¥Î»£º10ms,¼´0.01s£¬ÒòÎªÉè¼ÆÎª1msµÄ»°Ë¢ÐÂ¸ú²»ÉÏ
+æ—¶é—´å•ä½ï¼š10ms,å³0.01sï¼Œå› ä¸ºè®¾è®¡ä¸º1msçš„è¯åˆ·æ–°è·Ÿä¸ä¸Š
 
-----------------------------------------------------------------------------
 
-Ò»Ð©´úÂë²Î¿¼  REF:
-
-	this->runAction(Sequence::create(FadeOut::create(0.2f), DelayTime::create(0.2f),
-  CallFunc::create(CC_CALLBACK_0(Note::removeNote, this)), NULL));//ÏûÊ§ÌØÐ§
-
-  // Ìí¼Ó¼àÌýÆ÷
-  void FriendShip::addListener() {
-    auto keyboardListener = EventListenerKeyboard::create();
-    keyboardListener->onKeyPressed = CC_CALLBACK_2(FriendShip::onKeyPressed, this);
-    keyboardListener->onKeyReleased = CC_CALLBACK_2(FriendShip::onKeyReleased, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
-
-    auto contactListener = EventListenerPhysicsContact::create();
-    contactListener->onContactBegin = CC_CALLBACK_1(FriendShip::onConcactBegin, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(contactListener, this);
-  }
