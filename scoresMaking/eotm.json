@@ -1,0 +1,4929 @@
+{
+   "array" : [
+      {
+         "time" : 16,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 54,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 93,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 132,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 170,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 209,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 248,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 287,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 325,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 364,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 403,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 441,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 480,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 519,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 557,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 596,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 635,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 674,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 712,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 751,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 790,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 828,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 867,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 906,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 944,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 983,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1022,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1061,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1099,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1138,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1177,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1215,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1254,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1293,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1331,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1370,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1409,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1448,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1486,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1525,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1564,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1602,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1641,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1680,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1718,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1757,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1796,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1835,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1873,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1912,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 1951,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 1989,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2028,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2067,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2105,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2144,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2183,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2222,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2260,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2299,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2338,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2376,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2415,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2454,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2492,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2531,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2570,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2609,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2647,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2686,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2725,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2763,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2802,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2841,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2879,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2918,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 2957,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 2996,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3034,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3073,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3112,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3150,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3189,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3228,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3266,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3305,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3344,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3383,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3421,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3460,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3499,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3537,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3576,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3615,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3653,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3692,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3731,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3770,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3808,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3847,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3886,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 3924,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 3963,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4002,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4040,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4079,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4118,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4157,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4195,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4234,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4273,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4311,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4350,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4389,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4427,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4466,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4505,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4544,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4582,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4621,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4660,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4698,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4737,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4776,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4814,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4853,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4892,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 4931,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 4969,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5008,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5047,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5085,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5124,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5163,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5201,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5240,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5279,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5318,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5356,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5395,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5434,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5472,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5511,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5550,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5588,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5627,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5666,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5705,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5743,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5782,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5821,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5859,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5898,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 5937,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 5975,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6014,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6053,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6092,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6130,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6169,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6208,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6246,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6285,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6324,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6362,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6401,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6440,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6479,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6517,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6556,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6595,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6633,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6672,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6711,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6749,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6788,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6827,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6866,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6904,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 6943,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 6982,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7020,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7059,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7098,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7136,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7175,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7214,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7253,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7291,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7330,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7369,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7407,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7446,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7485,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7523,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      },
+      {
+         "time" : 7562,
+         "tracks" : [
+            {
+               "length" : 0,
+               "num" : 0,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 1,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 2,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 3,
+               "type" : "tap"
+            }
+         ]
+      },
+      {
+         "time" : 7601,
+         "tracks" : [
+            {
+               "length" : 1,
+               "num" : 0,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 1,
+               "type" : "none"
+            },
+            {
+               "length" : 1,
+               "num" : 2,
+               "type" : "tap"
+            },
+            {
+               "length" : 0,
+               "num" : 3,
+               "type" : "none"
+            }
+         ]
+      }
+   ]
+}
