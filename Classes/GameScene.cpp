@@ -1,8 +1,9 @@
-﻿#include "GameScene.h"
+#include "GameScene.h"
 #include "ResultScene.h" 
 #include "Global.h" 
 #include "SimpleAudioEngine.h" 
 #include <sstream>
+#define GLOBAL Global::getInstance()
 using std::stringstream;
 
 USING_NS_CC;
@@ -181,11 +182,34 @@ void GameScene::addListeners()
 
 	auto keyboardListener = EventListenerKeyboard::create();
 	keyboardListener->onKeyPressed = CC_CALLBACK_2(GameScene::onKeyPressed, this);
-	// keyboardListener->onKeyReleased = CC_CALLBACK_2(GameScene::onKeyReleased, this);
+	keyboardListener->onKeyReleased = CC_CALLBACK_2(GameScene::onKeyReleased, this);
 	_eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
 
 
 	
+}
+
+
+void GameScene::onKeyReleased(EventKeyboard::KeyCode code, Event* event) {
+	switch (code) {
+		
+	case cocos2d::EventKeyboard::KeyCode::KEY_D:
+		judgeNoteByTrack(D, timeCounter);
+		break;
+	case cocos2d::EventKeyboard::KeyCode::KEY_F:
+		judgeNoteByTrack(F, timeCounter);
+		break;
+
+	case cocos2d::EventKeyboard::KeyCode::KEY_J:
+		judgeNoteByTrack(J, timeCounter);
+		break;
+
+	case cocos2d::EventKeyboard::KeyCode::KEY_K:
+		judgeNoteByTrack(K, timeCounter);
+		break;
+	}
+	log("keyRELEASED  COUNTER:  %d", timeCounter);
+	unschedule(schedule_selector(GameScene::holdingNoodle));
 }
 void GameScene::onKeyPressed(EventKeyboard::KeyCode code, Event* event) {
 	switch (code) {
@@ -202,16 +226,13 @@ void GameScene::onKeyPressed(EventKeyboard::KeyCode code, Event* event) {
 		 
 	case cocos2d::EventKeyboard::KeyCode::KEY_K:
 		judgeNoteByTrack(K, timeCounter);
-		break;
-	default:
-		break;
+		break; 
 	}
 
 }
 
 void GameScene::onNotePassingMissBox(EventCustom * event)
 {
-	//  这里是为了在玩家没有按下任何按键的情况下依然能够监听到miss的音符而设置的
 	for (int i = 0; i < Global::getInstance().TRACK_NUMBER; i++) {
 		for (int j = 0; j < spritesOfTrack[i].size(); j++) {
 			Sprite* s = spritesOfTrack[i][j]; 
@@ -219,10 +240,12 @@ void GameScene::onNotePassingMissBox(EventCustom * event)
 			if (s != NULL) { 
 				if (s->getTag() != END && s->getTag() - timeCounter < -1.5 * BOX_TIME) {
 						// miss则播放miss动画，还没想好在哪里播放
+					//  这里是为了在玩家没有按下任何按键的情况下依然能够监听到miss的音符而设置的
 					onJudgeResultSettled(MISS);
 					s->removeFromParent();
 					spritesOfTrack[i][j] = NULL;
-				} 
+				}
+
 			}
 				
 		}
@@ -255,6 +278,10 @@ void GameScene::makeGear()
 	scorelabel = Label::create();
 	scorelabel->setPosition(SCREEN.rightTop() - Vec2(100,100));
 	addChild(scorelabel, 4);
+
+	combolabel = Label::create();
+	combolabel->setPosition(SCREEN.rightTop() - Vec2(100,50));
+	addChild(combolabel, 4);
 }
 void GameScene::setBoxes() {
 	// 设置判定线
@@ -272,7 +299,7 @@ void GameScene::setBoxes() {
 		addChild(good_box_up, 1);
 
 		LENGTH = visibleSize.height - good_box_up->getPosition().y + Global::JUDGE_BOX_HEIGHT;
-		AVG_SPEED = LENGTH / Global::getInstance().DROP_TIME;
+		AVG_SPEED = (float)LENGTH / (float)Global::getInstance().DROP_TIME;
 
 		Sprite* perfect_box = Sprite::create("box.png");
 		perfect_box->setPosition(SCREEN.judgePos());
@@ -310,24 +337,19 @@ void GameScene::gameOver() {
 
 
 void GameScene::updateScene(float dt)
-{
-
+{ 
 	// 分发事件
 	EventCustom e("onNotePassingMissBox");
 	_eventDispatcher->dispatchEvent(&e);
 
 	int timing = timeCounter + Global::getInstance().DROP_TIME;
-	log("timing %d", timing);
+	//  log("timing %d", timing);
 	if (timing >= timeElapsed.size() || timeElapsed[timing]) {
 		// 若当前时间戳的note已被添加过，直接返回 
 		return;
-	} 
-	//CCLog("Begin Update");
+	}  
 	timeElapsed[timing] = true;
-
-
-
-	//CCLog("		timeCounter on 167  : %d", timeCounter);
+	 
 	for (int i = 0; i < Global::getInstance().TRACK_NUMBER; i++) {
 		if (scoresOfTrack[i].count(timing)) {
 			// if at this moment, there's a note on the track, then drop it.
@@ -345,24 +367,82 @@ void GameScene::updateScene(float dt)
 void GameScene::judgeNoteByTrack(int trackNumber, int now)
 { 
 	vector<Sprite*>& track = spritesOfTrack[trackNumber];
+	//  遍历当前track上的sprite
 	for (int i = 0; i < track.size(); i++) {
 		if (track[i] == NULL) continue;
-		if (track[i]->getTag() == END) continue;
-		int offset = track[i]->getTag() - now;
+		int perfectTime = track[i]->getTag();
+		if (perfectTime == END) continue;
+
+		auto nt = scoresOfTrack[trackNumber][perfectTime];
+		bool noodleHeadHit = isNoodleDroping[trackNumber];
+		if (noodleHeadHit) {
+			perfectTime += nt.length * GLOBAL.NOTE_HEIGHT / AVG_SPEED;   //  06140005: perfectTime提早了，还要往后
+			isNoodleDroping[trackNumber] = false;
+		}
+
+		int offset = perfectTime - now;
+
 		if (abs(offset) > 0.5 * BOX_TIME && abs(offset) < 1.5 * BOX_TIME) {
-			onJudgeResultSettled(GOOD);
+			onJudgeResultSettled(GOOD); 
+			
+			if (!noodleHeadHit && nt.type == "noodle") {
+				//  击中头部
+			schedule(schedule_selector(GameScene::holdingNoodle), 0.5f, kRepeatForever, 0.0f); 
+				isNoodleDroping[trackNumber] = true;
+			} else 
 			track[i]->setTag(END);
+
+			if (noodleHeadHit) {
+				//  如果尾部hit了，就unschedule
+				unschedule(schedule_selector(GameScene::holdingNoodle));
+			}
 		}
 		else if (abs(offset) < 0.5 * BOX_TIME) {
 			onJudgeResultSettled(PERFECT);
-			track[i]->setTag(END);
+			if (!noodleHeadHit && nt.type == "noodle") {
+				//  击中头部
+				schedule(schedule_selector(GameScene::holdingNoodle), 0.5f, kRepeatForever, 0.0f);
+				isNoodleDroping[trackNumber] = true;
+			}
+			else {
+				// 不是noodle类型的note，或者现在正在判断noodle的尾部
+				track[i]->setTag(END);
+			}
+
+			if (noodleHeadHit) {
+				//  如果尾部hit了，就unschedule
+				unschedule(schedule_selector(GameScene::holdingNoodle));
+			}
 		}
 		else if (offset < -1.5 * BOX_TIME) {
+
+			if (nt.type == "noodle") { 
+				//  如果noodle的头就miss了，尾部就不用判断了
+				if (noodleHeadHit) {
+					//  如果尾部miss了，就unschedule
+					unschedule(schedule_selector(GameScene::holdingNoodle));
+				}
+			}
 			onJudgeResultSettled(MISS);
 			track[i]->setTag(END);
+			track[i]->removeFromParent();
+			track[i] = NULL;
 		}
 	}
 }
+
+void GameScene::holdingNoodle(float dt) {
+	//  实现按noodle时combo不断增加
+	GLOBAL.combo++;
+	{
+		stringstream ss;
+		ss << GLOBAL.combo;
+		string str;
+		ss >> str;
+		combolabel->setString(str.c_str());
+	}
+}
+
 void GameScene::onJudgeResultSettled(int result) {
 	//  play animation
 	//  add combo
@@ -406,5 +486,12 @@ void GameScene::onJudgeResultSettled(int result) {
 		string str;
 		ss >> str;
 		scorelabel->setString(str.c_str());
+	}
+	{
+		stringstream ss;
+		ss << GLOBAL.combo;
+		string str;
+		ss >> str;
+		combolabel->setString(str.c_str());
 	}
 }
