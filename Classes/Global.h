@@ -17,6 +17,7 @@ public:
 	static const int JUDGE_MISS_BOX_TAG = 3;
 	static const int JUDGE_BOX_HEIGHT = 15; // 判定框高度，不知道为什么要/2才能移到正确位置,好像不是按像素算的
 	static const int TRACK_WIDTH = 50; // 判定框宽度 
+	float NOTE_HEIGHT;  // 每个note的原始高度，单位是cocos2d神秘的单位长度
 
 public:
 	static Global& getInstance() {
@@ -38,6 +39,7 @@ private:
 		combo = 0;
 		score = 0;
 		HP = 100;
+		NOTE_HEIGHT = 48.0;
 	}
 
 };
