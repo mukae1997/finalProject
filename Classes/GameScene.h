@@ -44,22 +44,29 @@ public:
 	void calculateTime();
 	void judgeNoteByTrack(int trackNumber, int now);
 	void onJudgeResultSettled(int result);
+	void holdingNoodle(float dt);
 
 	// MISS NOTE
 	void onNotePassingMissBox(EventCustom* event);
 	void onKeyPressed(EventKeyboard::KeyCode code, Event* event);
+	void onKeyReleased(EventKeyboard::KeyCode code, Event* event); 
+	
 
 private: 
 
 	VisibleRect SCREEN; // 用来调整各种位置
 	int LENGTH;  // 屏幕顶端到判定区顶部的距离
-	int AVG_SPEED;  // LENGTH / DROP_TIME
+	float AVG_SPEED;  // LENGTH / DROP_TIME
 	int BOX_TIME;  // 跨过一个判定区需要的时间 
 
 	Layout* gear;
 	Sprite* judgeResultBox;
+
+	////////SHOWCASE
 	Label* hitlabel; // debug
 	Label* scorelabel;
+	Label* combolabel;
+
 	vector<Sprite*> missBoxes;	//  boxes
 
 	vector<map<int, Note> > scoresOfTrack; // 每个轨道上的音符信息
