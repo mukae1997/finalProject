@@ -15,8 +15,8 @@ using namespace cocos2d::ui;
  
 class GameScene : public cocos2d::Layer
 {
-public:
-    static cocos2d::Scene* createScene();
+public
+    static cocos2d::Scene* createScene(string MusicName);
 
     virtual bool init();
 
@@ -49,8 +49,7 @@ public:
 	void onNotePassingMissBox(EventCustom* event);
 	void onKeyPressed(EventKeyboard::KeyCode code, Event* event);
 
-private: 
-
+private:
 	VisibleRect SCREEN; // 用来调整各种位置
 	int LENGTH;  // 屏幕顶端到判定区顶部的距离
 	int AVG_SPEED;  // LENGTH / DROP_TIME

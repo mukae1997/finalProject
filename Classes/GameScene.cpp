@@ -7,7 +7,7 @@ using std::stringstream;
 
 USING_NS_CC;
 using namespace CocosDenshion;
-string MusicName = "sos.mp3";
+string MusicName;
 char ScoreName[] = "sos.json";
 
 
@@ -15,7 +15,7 @@ enum judge { GOOD, PERFECT, MISS, END };
 enum key_4 { D, F, J ,K };
 
 
-Scene* GameScene::createScene()
+Scene* GameScene::createScene(string musicName)
 {
     // 'scene' is an autorelease object
     auto scene = Scene::create();
@@ -25,7 +25,7 @@ Scene* GameScene::createScene()
 
     // add layer as a child to scene
     scene->addChild(layer);
-
+    MusicName = musicName;
     // return the scene
     return scene;
 }
