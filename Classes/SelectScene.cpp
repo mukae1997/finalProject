@@ -57,22 +57,30 @@ bool SelectScene::init()
      
 
     // add "SelectScene" splash screen"
-    auto sprite = Sprite::create("SelectScene.png");
+    auto sprite = Sprite::create("songs_background.jpg");
+    sprite->setScale(visibleSize.height/sprite->getContentSize().height);
     // position the sprite on the center of the screen
     sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
 
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
+    auto sprite_1 = Sprite::create("songs_list.png");
+        sprite_1->setScale(0.4);
+     //   sprite_1->setScale(visibleSize.height/sprite_1->getContentSize().height);
+    // position the sprite on the center of the screen
+    sprite_1->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height + origin.y-100));
+    this->addChild(sprite_1, 1);
     MenuItemLabel* songSprite[SongNum];
     
     for (int i = 0; i < SongNum; i++) {
-        songSprite[i] = MenuItemLabel::create(Label::createWithTTF(SongName[i], "Marker Felt.ttf", 50),CC_CALLBACK_1(SelectScene::selectCallback, this, i));
-        songSprite[i]->setPosition(Vec2(origin.x+visibleSize.width/2, origin.y+visibleSize.height-i*50));
+        songSprite[i] = MenuItemLabel::create(Label::createWithTTF(SongName[i], "Marker Felt.ttf", 30),CC_CALLBACK_1(SelectScene::selectCallback, this, i));
+        songSprite[i]->setPosition(Vec2(origin.x+visibleSize.width/2, origin.y+visibleSize.height-(90+i*50)));
         menu->addChild(songSprite[i]);
     }
-    auto start = MenuItemLabel::create(Label::createWithTTF("START", "Marker Felt.ttf", 50), CC_CALLBACK_1(SelectScene::startCallback, this));
-    start->setPosition(Vec2(origin.x+visibleSize.width-start->getContentSize().width, origin.y));
-    this->addChild(start, 2);
+    auto start = MenuItemImage::create("start.png", "start.png", CC_CALLBACK_1(SelectScene::startCallback, this));
+        start->setScale(0.5);
+    start->setPosition(Vec2(origin.x+visibleSize.width-start->getContentSize().width+20, origin.y+start->getContentSize().height/2));
+    menu->addChild(start);
     return true;
 }
 
@@ -102,7 +110,7 @@ void SelectScene::startCallback(cocos2d::Ref* pSender) {
 
 void SelectScene::preLoadMusic() {
     auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
-    for (int i = 0; i < 5;i++) {
+    for (int i = 0; i < 2;i++) {
         audio->preloadBackgroundMusic(SongName[i].c_str());
     }
 }

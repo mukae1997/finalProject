@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "GameScene.h"
+#include "SelectScene.h"
 
 USING_NS_CC;
 
@@ -44,7 +44,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
         #else
                 glview = GLViewImpl::create("finalProject");
         #endif
-				glview->setFrameSize(1200, 600);
+                glview->setFrameSize(1200, 600);
         director->setOpenGLView(glview);
     }
 
@@ -81,7 +81,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     游戏入口界面设置处
 
     */
-    auto scene = GameScene::createScene();
+    auto scene = SelectScene::createScene();
 
     // run
     director->runWithScene(scene);
