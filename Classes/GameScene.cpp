@@ -3,20 +3,21 @@
 #include "Global.h" 
 #include "SimpleAudioEngine.h" 
 #include <sstream>
+#include "PauseScene.h"
 #define GLOBAL Global::getInstance()
 using std::stringstream;
 
 USING_NS_CC;
 using namespace CocosDenshion;
-string MusicName;
-char ScoreName[] = "sos.json";
+string MusicName = "eotm.mp3";
+char ScoreName[] = "eotm.json";
 
 
 enum judge { GOOD, PERFECT, MISS, END };
 enum key_4 { D, F, J ,K };
 
 
-Scene* GameScene::createScene(string musicName)
+Scene* GameScene::createScene()
 {
     // 'scene' is an autorelease object
     auto scene = Scene::create();
@@ -26,7 +27,7 @@ Scene* GameScene::createScene(string musicName)
 
     // add layer as a child to scene
     scene->addChild(layer);
-    MusicName = musicName;
+
     // return the scene
     return scene;
 }
@@ -57,28 +58,46 @@ bool GameScene::init()
 	closeItem->setPosition(Vec2(origin.x + visibleSize.width - closeItem->getContentSize().width/2 ,
                                 origin.y + closeItem->getContentSize().height/2));
 
+	//  暂停键  PAUSE BUTTON
+	auto pauseItem = MenuItemImage::create("main_pause.png", "main_pause_2.png", [&](Ref* Sender) {
+		Director::sharedDirector()->pushScene(PauseScene::createScene());
+		SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
+	}); 
+	pauseItem->setPosition(SCREEN.leftTop() + Vec2(15, -20));
+	pauseItem->setScale(0.4);
     // create menu, it's an autorelease object
     auto menu = Menu::create(closeItem, NULL);
     menu->setPosition(Vec2::ZERO);
+	menu->addChild(pauseItem,2);
     this->addChild(menu, 1);
 
-	/*  drafting  */
+
+	/* GAME SCENE LABEL,  FOR DEBUGGING  */
     auto label = Label::createWithTTF("Game Scene", "fonts/Marker Felt.ttf", 24);
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
                             origin.y + visibleSize.height - label->getContentSize().height));
 
     this->addChild(label, 1);
 
-	Sprite* background = Sprite::create("gameSceneBg.jpg");
+
+	/// set background 
+	Sprite* background = Sprite::create("main_background.jpg");
 	background->setPosition(SCREEN.center());
+	Size mywinsize = Director::getInstance()->getWinSize();
+	float winw = mywinsize.width; //获取屏幕宽度
+	float winh = mywinsize.height;//获取屏幕高度
+	float spx = background->getTextureRect().getMaxX();
+	float spy = background->getTextureRect().getMaxY();
+	background->setScaleX(winw / spx); //设置精灵宽度缩放比例
+	background->setScaleY(winh / spy);
 	addChild(background, 0);
+
 
 	///////////////////////
 	/////// USEFUL CODE //////
 	///////////////////////
 
 	// initialize
-	timeCounter = 0; // clear the time counter
 	for (int i = 0; i < Global::getInstance().TRACK_NUMBER; i++) {
 		scoresOfTrack.push_back(map<int, Note>());
 		spritesOfTrack.push_back(vector<Sprite*>());
@@ -86,31 +105,72 @@ bool GameScene::init()
 	makeGear();   // INITIALIZE gear
 	setBoxes();
 	calculateTime();  //  计算特定时间戳，用于判定
+	if (Global::getInstance().restartOrNot) {
 
-	 // 读取谱面
-	preLoadMusicScore(); 
-	preLoadBackGroundMusic();
-	preLoadAnimation();
+		GLOBAL.reset();
+		preLoadBackGroundMusic();
+
+
+	}
+
+	GLOBAL.restartOrNot = true;
+
+	// 读取谱面
+	preLoadMusicScore();
+
+	//preLoadAnimation();
 	addListeners();
 
 	// 毫秒计时器
 	schedule(schedule_selector(GameScene::mSecCounter), 0.01f, kRepeatForever, 0.0f);
 	schedule(schedule_selector(GameScene::updateScene), 0.01f, kRepeatForever, 0.0f);
-	
-
     return true;
 }
 
 /*
 	PREPARATION
 */
+void GameScene::makeGear()
+{
+	gear = ui::Layout::create();
+	gear->setLayoutType(ui::Layout::Type::HORIZONTAL);
+	addChild(gear);
+
+	auto tracks = Sprite::create("main_separation.png");
+	tracks->setPosition(SCREEN.center());
+	tracks->setScale(0.4);
+	gear->addChild(tracks);
+
+	judgeResultBox = Sprite::create();
+	judgeResultBox->setPosition(SCREEN.center());
+	addChild(judgeResultBox);
+
+	hitlabel = Label::create();
+	hitlabel->setPosition(SCREEN.left());
+	addChild(hitlabel, 4);
+
+	auto scorePic = Sprite::create("main_score.png");
+	scorePic->setPosition(SCREEN.rightTop()-Vec2(100,30));
+	scorePic->setScale(0.5);
+	addChild(scorePic, 4);
+	 
+	scorelabel = Label::create();
+	scorelabel->setPosition(SCREEN.rightTop() - Vec2(80, 20));
+    scorelabel->setColor(Color3B(255,255,255));
+	addChild(scorelabel, 4);
+
+	combolabel = Label::create();
+	combolabel->setPosition(SCREEN.rightTop() - Vec2(100, 130));
+	addChild(combolabel, 4);
+}
 void GameScene::preLoadBackGroundMusic()
 {
-
 	SimpleAudioEngine::getInstance()->preloadBackgroundMusic(MusicName.c_str());
-	CCLog("		MUSIC BEGINS on   : %d", timeCounter);
+	CCLog("		MUSIC BEGINS on   : %d", GLOBAL.timeCounter);
 	SimpleAudioEngine::getInstance()->playBackgroundMusic(MusicName.c_str(), true);
 }
+
+
 void GameScene::preLoadMusicScore() {
 	string scoreString = FileUtils::getInstance()->getStringFromFile(ScoreName);
 	rapidjson::Document d;
@@ -150,18 +210,18 @@ void GameScene::preLoadAnimation() {
 	auto MissImage = Director::getInstance()->getTextureCache()->addImage("miss.png");
 
 	Vector<SpriteFrame*> noteMiss;
-	for (int i = 0; i < 2; i++) {
-		auto frame = SpriteFrame::createWithTexture(MissImage, CC_RECT_PIXELS_TO_POINTS(Rect(100*i, 93, 100, 93)));
+		auto frame = SpriteFrame::createWithTexture(MissImage, CC_RECT_PIXELS_TO_POINTS(Rect(0, 0, 355, 177)));
 		noteMiss.pushBack(frame);
-	}
+
 	Animation* noteMissAnimation = Animation::createWithSpriteFrames(noteMiss, 0.1f);
+	
 	AnimationCache::getInstance()->addAnimation(noteMissAnimation, "noteMiss");
 
 }
 
 
 void GameScene::mSecCounter(float dt) { 
-	timeCounter++; 
+	GLOBAL.timeCounter++;
 }
 void GameScene::calculateTime() {
 	/*  算出来的都是时间偏移量 */
@@ -194,38 +254,38 @@ void GameScene::onKeyReleased(EventKeyboard::KeyCode code, Event* event) {
 	switch (code) {
 		
 	case cocos2d::EventKeyboard::KeyCode::KEY_D:
-		judgeNoteByTrack(D, timeCounter);
+		judgeNoteByTrack(D, GLOBAL.timeCounter);
 		break;
 	case cocos2d::EventKeyboard::KeyCode::KEY_F:
-		judgeNoteByTrack(F, timeCounter);
+		judgeNoteByTrack(F, GLOBAL.timeCounter);
 		break;
 
 	case cocos2d::EventKeyboard::KeyCode::KEY_J:
-		judgeNoteByTrack(J, timeCounter);
+		judgeNoteByTrack(J, GLOBAL.timeCounter);
 		break;
 
 	case cocos2d::EventKeyboard::KeyCode::KEY_K:
-		judgeNoteByTrack(K, timeCounter);
+		judgeNoteByTrack(K, GLOBAL.timeCounter);
 		break;
 	}
-	log("keyRELEASED  COUNTER:  %d", timeCounter);
+	log("keyRELEASED  COUNTER:  %d", GLOBAL.timeCounter);
 	unschedule(schedule_selector(GameScene::holdingNoodle));
 }
 void GameScene::onKeyPressed(EventKeyboard::KeyCode code, Event* event) {
 	switch (code) {
 	case cocos2d::EventKeyboard::KeyCode::KEY_D:
-		judgeNoteByTrack(D, timeCounter);
+		judgeNoteByTrack(D, GLOBAL.timeCounter);
 		break;
 	case cocos2d::EventKeyboard::KeyCode::KEY_F:
-		judgeNoteByTrack(F, timeCounter);
+		judgeNoteByTrack(F, GLOBAL.timeCounter);
 		break;
 
 	case cocos2d::EventKeyboard::KeyCode::KEY_J:
-		judgeNoteByTrack(J, timeCounter);
+		judgeNoteByTrack(J, GLOBAL.timeCounter);
 		break;
 		 
 	case cocos2d::EventKeyboard::KeyCode::KEY_K:
-		judgeNoteByTrack(K, timeCounter);
+		judgeNoteByTrack(K, GLOBAL.timeCounter);
 		break; 
 	}
 
@@ -238,7 +298,7 @@ void GameScene::onNotePassingMissBox(EventCustom * event)
 			Sprite* s = spritesOfTrack[i][j]; 
 			
 			if (s != NULL) { 
-				if (s->getTag() != END && s->getTag() - timeCounter < -1.5 * BOX_TIME) {
+				if (s->getTag() != END && s->getTag() - GLOBAL.timeCounter < -1.5 * BOX_TIME) {
 						// miss则播放miss动画，还没想好在哪里播放
 					//  这里是为了在玩家没有按下任何按键的情况下依然能够监听到miss的音符而设置的
 					onJudgeResultSettled(MISS);
@@ -262,30 +322,11 @@ void GameScene::menuCloseCallback(Ref* pSender)
 #endif
 }
 
-void GameScene::makeGear()
-{
-	gear = ui::Layout::create();
-	gear->setLayoutType(ui::Layout::Type::HORIZONTAL);
-	addChild(gear);
-	judgeResultBox = Sprite::create();
-	judgeResultBox->setPosition(SCREEN.center());
-	addChild(judgeResultBox);
 
-	hitlabel = Label::create();
-	hitlabel->setPosition(SCREEN.left());
-	addChild(hitlabel, 4);
-
-	scorelabel = Label::create();
-	scorelabel->setPosition(SCREEN.rightTop() - Vec2(100,100));
-	addChild(scorelabel, 4);
-
-	combolabel = Label::create();
-	combolabel->setPosition(SCREEN.rightTop() - Vec2(100,50));
-	addChild(combolabel, 4);
-}
 void GameScene::setBoxes() {
 	// 设置判定线
 	auto visibleSize = Director::getInstance()->getVisibleSize();
+	
 	for (int i = 0; i < Global::getInstance().TRACK_NUMBER; i++) {
 		Sprite* good_box_up = Sprite::create("box.png");
 		good_box_up->setPosition(SCREEN.judgePos());
@@ -296,7 +337,7 @@ void GameScene::setBoxes() {
 		log("box height		%f", good_box_up->getContentSize().height);
 		good_box_up->runAction(MoveBy::create(0.01f, Vec2(i*Global::TRACK_WIDTH, Global::JUDGE_BOX_HEIGHT)));
 		good_box_up->setTag(Global::JUDGE_GOOD_BOX_TAG);
-		addChild(good_box_up, 1);
+		//addChild(good_box_up, 1);
 
 		LENGTH = visibleSize.height - good_box_up->getPosition().y + Global::JUDGE_BOX_HEIGHT;
 		AVG_SPEED = (float)LENGTH / (float)Global::getInstance().DROP_TIME;
@@ -305,20 +346,23 @@ void GameScene::setBoxes() {
 		perfect_box->setPosition(SCREEN.judgePos());
 		perfect_box->runAction(MoveBy::create(0.01f, Vec2(i*Global::TRACK_WIDTH, 0)));
 		perfect_box->setTag(Global::JUDGE_PERFECT_BOX_TAG);
-		addChild(perfect_box, 1);
+		//addChild(perfect_box, 1);
 		Sprite* good_box_down = Sprite::create("box.png");
 		good_box_down->setPosition(SCREEN.judgePos());
 		good_box_down->runAction(MoveBy::create(0.01f, Vec2(i*Global::TRACK_WIDTH, 0-Global::JUDGE_BOX_HEIGHT)));
 		good_box_down->setTag(Global::JUDGE_GOOD_BOX_TAG);
-		addChild(good_box_down, 1);
+		//addChild(good_box_down, 1);
 		Sprite* miss_box = Sprite::create("box.png");
 		miss_box->setPosition(SCREEN.judgePos());
 		miss_box->runAction(MoveBy::create(0.01f, Vec2(i*Global::TRACK_WIDTH, 0-2*Global::JUDGE_BOX_HEIGHT)));
 		miss_box->setTag(Global::JUDGE_MISS_BOX_TAG);
-		addChild(miss_box, 1);
+		//addChild(miss_box, 1);
 		missBoxes.push_back(miss_box);
 	}
-
+	
+	auto line = Sprite::create("line2.png");
+	line->setPosition(SCREEN.judgePos());
+	addChild(line,4);
 }
 
 /*
@@ -342,7 +386,7 @@ void GameScene::updateScene(float dt)
 	EventCustom e("onNotePassingMissBox");
 	_eventDispatcher->dispatchEvent(&e);
 
-	int timing = timeCounter + Global::getInstance().DROP_TIME;
+	int timing = GLOBAL.timeCounter + Global::getInstance().DROP_TIME;
 	//  log("timing %d", timing);
 	if (timing >= timeElapsed.size() || timeElapsed[timing]) {
 		// 若当前时间戳的note已被添加过，直接返回 
@@ -444,6 +488,10 @@ void GameScene::holdingNoodle(float dt) {
 }
 
 void GameScene::onJudgeResultSettled(int result) {
+	if (g != nullptr) {
+		g->removeFromParent();
+		g = NULL;
+	}
 	//  play animation
 	//  add combo
 	//  add score
@@ -461,23 +509,30 @@ void GameScene::onJudgeResultSettled(int result) {
 		Global::getInstance().HP += 5;
 		Global::getInstance().HP % 101;
 		Global::getInstance().score += 70;
+		Global::getInstance().good++; 
+		playAni(GOOD);
 		break;
 	case PERFECT:
 		Global::getInstance().combo++;
 		Global::getInstance().HP += 10;
 		Global::getInstance().HP % 101;
 		Global::getInstance().score += 100;
+		Global::getInstance().perfect++;
+
+		playAni(PERFECT);
 		break;
 	case MISS:
 		Global::getInstance().maxCombo = Global::getInstance().maxCombo < Global::getInstance().combo ? Global::getInstance().combo : Global::getInstance().maxCombo;
 		Global::getInstance().combo = 0;
 		Global::getInstance().HP -= 10;
+		Global::getInstance().miss++;
+
+		playAni(MISS);
 		if (Global::getInstance().HP < 0) {
 			gameOver();
 			return;
 		} 
-		auto ani = Animate::create(AnimationCache::getInstance()->getAnimation("noteMiss"));
-		judgeResultBox->runAction(ani);
+
 		break;
 	}
 	{
@@ -494,4 +549,18 @@ void GameScene::onJudgeResultSettled(int result) {
 		ss >> str;
 		combolabel->setString(str.c_str());
 	}
+}
+
+void GameScene::playAni(int result) {
+	if (result == GOOD)
+		g = Sprite::create("good.png");
+	else if (result == PERFECT)
+		g = Sprite::create("perfect.png");
+	else  
+		g = Sprite::create("miss.png");
+
+	this->addChild(g, 5);
+	g->setPosition(SCREEN.judgePos());
+	g->runAction(Sequence::create(FadeOut::create(0.3), /*CallFunc::create([&, g]() {g->removeFromParent(); }),*/ NULL));
+
 }
