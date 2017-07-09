@@ -72,6 +72,13 @@ bool SelectScene::init()
     this->addChild(sprite_1, 1);
     MenuItemLabel* songSprite[SongNum];
     
+    
+    vector<MenuItemLabel*> songSprite;
+	for (int i = 0; i < SongNum; i++) {
+		MenuItemLabel* m = NULL;
+		songSprite.push_back(m);
+	}
+    
     for (int i = 0; i < SongNum; i++) {
         songSprite[i] = MenuItemLabel::create(Label::createWithTTF(SongName[i], "Marker Felt.ttf", 30),CC_CALLBACK_1(SelectScene::selectCallback, this, i));
         songSprite[i]->setPosition(Vec2(origin.x+visibleSize.width/2, origin.y+visibleSize.height-(90+i*50)));
