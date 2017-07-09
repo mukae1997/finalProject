@@ -15,8 +15,8 @@ using namespace cocos2d::ui;
  
 class GameScene : public cocos2d::Layer
 {
-public
-    static cocos2d::Scene* createScene(string MusicName);
+public:
+    static cocos2d::Scene* createScene();
 
     virtual bool init();
 
@@ -44,6 +44,7 @@ public
 	void calculateTime();
 	void judgeNoteByTrack(int trackNumber, int now);
 	void onJudgeResultSettled(int result);
+	void playAni(int result);
 	void holdingNoodle(float dt);
 
 	// MISS NOTE
@@ -52,7 +53,8 @@ public
 	void onKeyReleased(EventKeyboard::KeyCode code, Event* event); 
 	
 
-private:
+private: 
+
 	VisibleRect SCREEN; // 用来调整各种位置
 	int LENGTH;  // 屏幕顶端到判定区顶部的距离
 	float AVG_SPEED;  // LENGTH / DROP_TIME
@@ -65,6 +67,9 @@ private:
 	Label* hitlabel; // debug
 	Label* scorelabel;
 	Label* combolabel;
+
+	///// JUDGE RESULT
+	Sprite* g;
 
 	vector<Sprite*> missBoxes;	//  boxes
 
