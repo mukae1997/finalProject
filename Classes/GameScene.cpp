@@ -63,7 +63,7 @@ bool GameScene::init()
 		Director::sharedDirector()->pushScene(PauseScene::createScene());
 		SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
 	}); 
-	pauseItem->setPosition(SCREEN.leftTop() + Vec2(15, -20));
+	pauseItem->setPosition(SCREEN.leftTop() + Vec2(25, -30));
 	pauseItem->setScale(0.4);
     // create menu, it's an autorelease object
     auto menu = Menu::create(closeItem, NULL);
@@ -77,7 +77,7 @@ bool GameScene::init()
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
                             origin.y + visibleSize.height - label->getContentSize().height));
 
-    this->addChild(label, 1);
+   // this->addChild(label, 1);
 
 
 	/// set background 
@@ -150,17 +150,23 @@ void GameScene::makeGear()
 	addChild(hitlabel, 4);
 
 	auto scorePic = Sprite::create("main_score.png");
-	scorePic->setPosition(SCREEN.rightTop()-Vec2(100,30));
+	scorePic->setPosition(SCREEN.right()-Vec2(80,30));
 	scorePic->setScale(0.5);
 	addChild(scorePic, 4);
 	 
 	scorelabel = Label::create();
-	scorelabel->setPosition(SCREEN.rightTop() - Vec2(80, 20));
-    scorelabel->setColor(Color3B(255,255,255));
+	scorelabel->setPosition(SCREEN.right() - Vec2(80, 50));
+    scorelabel->setTextColor(Color4B::GRAY);
 	addChild(scorelabel, 4);
 
+	auto comboPic = Sprite::create("combo.png");
+	comboPic->setPosition(SCREEN.right() + Vec2(-80, 30));
+	comboPic->setScale(0.5);
+	addChild(comboPic, 4);
+
 	combolabel = Label::create();
-	combolabel->setPosition(SCREEN.rightTop() - Vec2(100, 130));
+	combolabel->setPosition(SCREEN.right() + Vec2(-80, 10));
+	combolabel->setTextColor(Color4B::GRAY);
 	addChild(combolabel, 4);
 }
 void GameScene::preLoadBackGroundMusic()
